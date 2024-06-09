@@ -1,73 +1,88 @@
-/* *{
-    font-family:courier New;
-}
-
-h1,h3{
-    color:#b92b27;
-}
-
 #login{
-    background-color:#fff;
-}
-
-#signup{
-    background-color:#b92b27;
-    color:white;
-
-
-
-
-
-}
-
-.upvote{
-    background-color:green;
+    height:500px;
+    width:400px;
+    border:2px solid black;
     color:#fff;
+    background-image:url("facebook background.jpg");
+    background-size:cover;
+    background-position:center;
+    overflow:hidden; 
+    box-shadow:0px 0px 20px rgba(0,0,0,0.75);
+   
+    border-radius:20px;
+    
+    
+   
+
+
+    
 
 }
-p+h3{
-    color:orange;
-}
 
-.upvote + button{
-    background-color:cornflowerblue;
-}
-
-input[type="text"]{
- color:red;
-
-}
-
-input[type="password"]{
-    color:green;
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:normal;
+    font-size:50px;
+    text-shadow:0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom:60px;
+    margin:30px;
+   
+   
+    
     
 }
 
-input[type]{
-    background-color:ghostwhite;
+form{
+    
+    padding:40px;
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+    backdrop-filter:brightness(40%);
+    flex-direction:column;
+    display:flex;
+   gap:5px;
+  
+   
 }
 
-.upvote+button:hover{
-    background-color:orange;
+label{
+    text-transform:uppercase;
+    display:block;
+    line-height:30px;
+    letter-spacing:5px;
+    padding-left:10px;
+    
+
+    
 }
 
-.upvote:hover{
-    background-color:rgb(1, 197, 1);
+button{
+    background:rgb(45,126,231);
+    height:40px;
+    line-height:40px;
+    border-radius:40px;
+    border:none;
+    margin:10px 0px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+    color:white;
+    font-size:20px;
+    text-transform:uppercase;
+    
 }
 
-p:hover{
-   font-weight:bold;
+input{
+    height:40px;
+    width:300px;
+    border-radius:40px;
+    background-color:darkcyan;
+    color:white;
+    padding-left:10px;
+    font-size:20px;
+  
 }
 
-#para::first-line{
-   background-color:darksalmon;
-}
 
-#para::selection{
-    background-color:rgb(199,192,58);
-}
-
- */
 
 
 
