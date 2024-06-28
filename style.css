@@ -1,112 +1,178 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: "Roboto", sans-serif;
+div h1{
+    display:inline-block;
+    font-size:100px;
+   
+}
+
+.G{
+    color:blue;
+}
+
+.O{
+    color:red;
+}
+
+.o{
+    color:yellow;
+}
+
+.g{
+    color:blue;
+}
+
+.L{
+    color:orange;
+}
+
+.E{
+    color:darkgreen;
 }
 
 .main_box{
-    background:url("https://wallpaper.forfun.com/fetch/06/06280a17826041c78966307a7170f16d.jpeg");
-    height:100vh;
-    background-size:cover;
+    width:100%;
+    height:250px;
+    text-align:center;
+    
 }
 
-.btn_one{
+.search_box input{
+    width:50%;
+    height:50px;
+    border-radius:30px;
+    font-size:20px;
+    padding-left:60px; 
+}
+
+
+.search_box i{
+    position:absolute;
+    left:360px;
+    bottom:295px;
+}
+
+.search_box span i{
+    position:absolute;
+   left:1100px;
+  bottom:295px;
+}
+ 
+.search_box nav i{
+    position:absolute;
+    left:1050px;
+    bottom:295px;
+}
+
+.social_media{
+    width:100%;
+    height:400px;
     font-size:30px;
-    color:white;
-    font-weight:700;
-    position:absolute;
-    left:16px;
-    line-height:60px;
-}
+    margin:20px;
 
-.sidebar_menu{
-    position:fixed;
-    left:-350px;    
-    height:100vh;
-    width:300px;
-    background-color:rgba(255,255,255,0.1);
-    box-shadow:0 0 8px rgba(255,255,255,0.5);
-    transition:all 0.2s linear;
-   }
-
-   .sidebar_menu .logo{
-    width:100%;
-    position:absolute;
-    line-height:60px;
-    box-shadow:0 0 4px rgba(255,255,255,0.5);
-   }
-
-   .sidebar_menu .logo a{
-    position:absolute;
-    left:50px;
-    color:white;
-    text-decoration:none;
-    font-size:20px;
-    font-weight:700;
-   }
-
-   .sidebar_menu .btn_two{
-    color:gray;
-    position:absolute;
-    left:275px;
-    font-size:25px;
-    top:15px;
-   }
-
-   .sidebar_menu .menu{
-    position:absolute;
-    top:100px;
-    width:100%;
-   }
-
-   .sidebar_menu .menu li{
-    margin:10px;
-    padding:15px 20px; 
-   }
-
-   .sidebar_menu .menu li a{
-    color:white;
-    text-decoration:none;
-    font-size:20px;
-   }
-
-   .sidebar_menu .menu li i{
-    padding-right:10px;
-    color:white;
-   }
-
-   .sidebar_menu .social_media{
-    position:absolute;
-    bottom:100px;
-    left:50px;
-    
-   }
-
-   .sidebar_menu .social_media i{
-    color:white;
-    opacity:0.5;
-    padding:0 5px;
-    
-   }
-
-   .sidebar_menu .menu li:hover{
-    box-shadow:0 0 8px rgb(255,255,255);
-   }
-
-   .sidebar_menu .social_media i:hover{
-    opacity:1;
-    transform:scale(2);
-   }
-
-#check{
-    display:none;
-}
    
-.sidebar_menu .btn_two:hover{
-    font-size:30px;
+    
 }
 
-#check:checked ~ .sidebar_menu{
-    left:0;
+.social_media .child{
+    width:100%;
+    height:400px;
+    font-size:30px;
+    margin:20px;
+  
+   
+
 }
+
+.social_media i{
+    padding:50px;
+    border-radius:50%;
+   background-color:skyblue;
+    opacity:0.3;
+    margin:20px;
+
+    
+}
+
+.social_media i:hover{
+  opacity:1;
+  transform:scale(1);
+  
+}
+
+#upper input{
+    height:50px;
+    width:90%;
+    border:2px solid blue;
+    border-radius:30px;
+    padding-left:15px;
+    
+    
+   
+   
+    
+    
+}
+
+#upper i{
+    position:fixed;
+   right:1430px;
+   top:25px;
+   font-size:20px;
+   color:blue;
+   
+  
+   
+}
+
+#upper span i{
+    position:fixed;
+    left:1300px;
+    top:25px;
+    font-size:20px;
+    color:black;
+    
+}
+
+#sidebar{
+    height:50px;
+    width:300px;
+    margin-left:1150px;
+    padding-top:20px;
+   
+    
+   
+    
+}
+
+#sidebar a {
+    padding-left:10px;
+    font-size:20px;
+    text-decoration:none;
+}
+
+#sidebar i {
+    padding-left:40px;
+    font-size:40px;
+   
+}
+
+#upper nav i{
+    position:fixed;
+    left:1450px;
+    color:black;
+   
+}
+
+#upper search i{
+    position:fixed;
+    left:1400px;
+    color:yellow;
+}
+
+#upper section i{
+    position:fixed;
+    left:1350px;
+    color:black;
+}
+
+
 
