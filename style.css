@@ -1,175 +1,157 @@
-div h1{
-    display:inline-block;
-    font-size:100px;
-   
-}
-
-.G{
-    color:blue;
-}
-
-.O{
-    color:red;
-}
-
-.o{
-    color:yellow;
-}
-
-.g{
-    color:blue;
-}
-
-.L{
-    color:orange;
-}
-
-.E{
-    color:darkgreen;
-}
-
-.main_box{
-    width:100%;
-    height:250px;
-    text-align:center;
+.container{
+    height:100vh;
+    min-width:100%;
+    background-color:rgb(135, 147, 235);
+    display:flex;
     
 }
 
-.search_box input{
+.container .left{
+    height:100vh;
     width:50%;
-    height:50px;
-    border-radius:30px;
     font-size:20px;
-    padding-left:60px; 
-}
-
-
-.search_box i{
-    position:absolute;
-    left:360px;
-    bottom:295px;
-}
-
-.search_box span i{
-    position:absolute;
-   left:1100px;
-  bottom:295px;
-}
- 
-.search_box nav i{
-    position:absolute;
-    left:1050px;
-    bottom:295px;
-}
-
-.social_media{
-    width:100%;
-    height:400px;
-    font-size:30px;
-    margin:20px;
-
-   
-    
-}
-
-.social_media .child{
-    width:100%;
-    height:400px;
-    font-size:30px;
-    margin:20px;
-  
-   
-
-}
-
-.social_media i{
     padding:50px;
-    border-radius:50%;
-   background-color:skyblue;
-    opacity:0.3;
-    margin:20px;
-
     
-}
-
-.social_media i:hover{
-  opacity:1;
-  transform:scale(1);
-  
-}
-
-#upper input{
-    height:50px;
-    width:90%;
-    border:2px solid blue;
-    border-radius:30px;
-    padding-left:15px;
-    
-    
-   
-   
     
     
 }
 
-#upper i{
-    position:fixed;
-   right:1430px;
-   top:25px;
-   font-size:20px;
-   color:blue;
-   
-  
-   
-}
-
-#upper span i{
-    position:fixed;
-    left:1300px;
-    top:25px;
+.container .right{
+    height:100vh;
+    width:50%;
     font-size:20px;
-    color:black;
-    
+    padding:30px;
+   
 }
 
-#sidebar{
-    height:50px;
-    width:300px;
-    margin-left:1150px;
-    padding-top:20px;
-   
-    
-   
-    
+.container .left a{
+   color:white;
+   text-decoration:none;
 }
 
-#sidebar a {
-    padding-left:10px;
-    font-size:20px;
+.container .right a{
+    color:white;
     text-decoration:none;
+    margin-left:35px;
+ }
+
+ .container .right button{
+    color:white;
+    background-color:rgb(135, 147, 235);
+    border:2px solid white;
+    margin-left:35px;
+    
+ }
+
+ .container .left h1{
+    padding-top:200px;
+    color:white;
+ }
+ 
+.container .left p a{
+    color:blue;
+}
+.container .left p{
+    color:white;
+    opacity:0.7;
 }
 
-#sidebar i {
-    padding-left:40px;
-    font-size:40px;
+.container .left .btn-warning{
+    border-radius:20px;
+    padding-left:30px;
+    padding-right:30px;
+    color:white;
+}
+.container .right .inside{
+    height:400px;
+    width:350px;
+    border:2px solid white;
+    margin-top:150px;
+    background-color:white;
+    filter:drop-shadow(4px 4px 4px black);
+    
+    
+}
+
+.container .right .inside{
+    margin-left:180px;
+    
+}
+
+.container .right .inside h4{
+    text-align:center;
+    margin-top:20px;
+}
+
+.container .right .inside form{
+    margin-left:60px;  
+}
+
+.container .right .inside form input{
+    font-size:20px;
+    padding-left:10px;
+    margin:10px;
+    background-color:skyblue;
+    opacity:0.5;
    
 }
 
-#upper nav i{
-    position:fixed;
-    left:1450px;
-    color:black;
+.container .right .inside form #profession{
+    font-size:20px;
+    width:243px;
+    margin-left:10px;
+    height:35px;
+   background-color:skyblue;
+   opacity:0.5;
    
+    
+}
+.container .right .inside form #profession{
+    margin-top:10px;
+    padding-left:10px;
 }
 
-#upper search i{
-    position:fixed;
-    left:1400px;
-    color:yellow;
+.container .right .inside button{
+   width:250px;
+   margin:20px;
+   background-color:blue;
+   border-radius:30px;
 }
 
-#upper section i{
-    position:fixed;
-    left:1350px;
-    color:black;
+.container .right .inside button{
+    margin-left:10px;
+}
+
+.container .right a:hover{
+    font-weight:500;
+    color:gray;
+  
+}
+
+.container .left a:hover{
+    font-weight:500;
+    color:gray;
+  
+}
+
+
+.container .right button:hover{
+    transform:scale(1);
+    font-weight:500;
+    color:gray;
+  
+}
+
+.container .right .inside button:hover{
+    box-shadow:2px 2px 2px black;
+    
+    
+}
+
+.container .left p:hover{
+    font-weight:300;
+}
+
+.container .left h1:hover{
+   color:gray;
 }
